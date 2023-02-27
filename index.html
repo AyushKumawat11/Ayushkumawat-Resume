@@ -1,121 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>home |  ayushkumawat-resume</title>
 
-    <link rel="stylesheet" href="styles.css">
+    <link href="styles.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Welcome to AyushKumawat Library</h1>
-    <p class="para">I am attending neog.camp and I  want to make library which would make all my project look good and consistent</p>
-    <hr>
-
-    <h2>@typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is second biggest heading</h2>
-    <p class="para">This is the normal text</p>
-    <small>This is relatively smaller text</small>
-    <hr>
-
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div class="container">This is  a fluid container and it will go till the end of the page</div>
-
-    <h3>center container</h3>
-    <div class="container-center">This is  a fluid container and it will go till the specified width</div>
-    <hr>
-
-    <h2>@links</h2>
-    <a class="link primary-link" href="https://google.com">Primary Link</a>
-    <a class="link secondary-link" href="https://google.com">Secondary Link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-    <h3>unordered list</h3>
-    <ul class="non-bullet">
-        <li>Chai</li>
-        <li>Coffee</li>
-        <li>Milk</li>
-    </ul>
-
-    <h3>unordered inline list</h3>
-    <ul  class="non-bullet">
-        <li class="item-inline">Chai</li>
-        <li class="item-inline">Coffee</li>
-        <li class="item-inline">Milk</li>
-    </ul>
-
-    <h3>reverse ordered inline list</h3>
-    <ol reversed>
-        <li>milk</li>
-        <li>egg</li>
-        <li>bread</li>
-    </ol>
-    <hr>
-
-    <h2>@nav</h2>
     <nav class="navigation container">
-        <div class="nav-brand">iAmBrand</div>
-        <ul  class="non-bullet nav-pills">
+        <div class="nav-brand">iAmDeveloper</div>
+        <ul class="non-bullet nav-pills">
             <li class="item-inline">
                 <a class="link link-active" href="/">home</a>
             </li>
             <li class="item-inline">
-                <a class="link" href="/">products</a>
+                <a class="link" href="/projects.html">projects</a>
             </li>
             <li class="item-inline">
-                <a class="link" href="/">about</a>
+                <a class="link" href="/blogs.html">blogs</a>
             </li>
         </ul>
     </nav>
-    <hr>
 
-    <h2>@header</h2>
     <header class="hero">
-        <img class="hero-img" src="images/javascript.svg" />
+        <img class="hero-img" src="images/proud.svg" />
         <h1 class="hero-heading">Ayush Kumawat the <span class="heading-change">web developer</span></h1>
     </header>
-    
-    <hr>
 
-    <h2>@sections</h2>
+    <section class="section ow">
+        <div class="container-center">
+            <h1>Technologies</h1>
+            <a class="heading-changes link" href="https://www.javatpoint.com/java-tutorial">JAVA</a>
+            <p class="para">In java i had learned about <span
+                    class="heading-change">OOPs,Collection,MultiThreading,Arrays,Exception Handling and String</span>
+                concepts.</p>
+
+            <a class="heading-changes link" href="https://guides.rubyonrails.org/">RubyonRails</a>
+            <p class="para">In ROR i had learned about <span class="heading-change">OOPs,MultiThreading,Arrays and
+                    String</span>.Also learned the concept of Rails like <span class="heading-change">Active Record
+                    Association,Active Record Callbacks,Active Record Validations,Controllers</span> and basic concept
+                of rails.</p>
+
+            <a class="heading-changes link" href="https://www.javatpoint.com/html-with-css">HTML/CSS</a>
+            <p class="para">HTML is a Hypertext Markup Language.In HTML i had learned about Tags Like <span
+                    class="heading-change">head,body,div,section,header,footer,span,img,a(anchor tag),nav,marquee</span>
+                etc.In CSS i had learned about about styling with the help of<span class="heading-change">Inline
+                    css,Internal css and External css</span>.Inline css can be done inside the tags,Internal css can be
+                done inside the style tag and External css can be done by making a css file and link it inside the page
+                with the help of link tag</p>
+        </div>
+    </section>
+
     <section class="section">
         <div class="container-center">
-        <h1>white section</h1>
-        <p class="para">The font-palette CSS property allows specifying one of the many palettes contained in a font that a user agent should use for the font. Users can also override the values in a palette or create a new palette by using the @font-palette-values at-rule.
+            <h1>Projects</h1>
+            <p class="para">I like to showcase my work and thus ,you can see my projects hosted online.
+            </p>
+            <a class="link primary-link" href="projects.html">See Projects</a>
 
-        </p>
-    </div>
+        </div>
     </section>
 
     <section class="section ow">
         <div class="container-center">
-        <h1>off white section</h1>
-        <p class="para">The font-palette CSS property allows specifying one of the many palettes contained in a font that a user agent should use for the font. Users can also override the values in a palette or create a new palette by using the @font-palette-values at-rule.
+            <h1>Blogs</h1>
+            <p class="para">I am also working on some technical and non technical blogs.I like to document my journey of learning.
+            </p>
+            <a class="link secondary-link" href="blogs.html">See Blogs</a>
 
-        </p>
-    </div>
+        </div>
     </section>
-    <hr>
 
-    <h2>@aside</h2>
-    <aside>This is aside tag.we are going to see how it will work</aside>
-    <hr>
 
-    <h2>footer</h2>
-    <h3>header inside footer</h3>
     <footer class="footer">
+        <h3>Social Media Presence</h3>
         <ul class="social-links non-bullet">
-            <li class="item-inline"><a class="link" href="/">One</a></li>
-            <li class="item-inline"><a class="link" href="/">Two</a></li>
-            <li class="item-inline"><a class="link" href="/">Three</a></li>
+            <li class="item-inline"><a class="links" href="https://github.com/AyushKumawat11">github</a></li>
+            <li class="item-inline"><a class="links" href="https://linkedin.com/Ayush kumawat">linkedin</a></li>
+            <li class="item-inline"><a class="links" href="/">instagram</a></li>
         </ul>
     </footer>
-    
 </body>
+
 </html>
